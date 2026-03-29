@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Backup artifacts and dump outputs
+backup_*/
+*.bak
+*.tmp.bak
+*.tmp.bak.metadata
+*.dump
+
+# Restore/backup state files generated inside backup dirs
+backup_state.json
+restore_state.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
