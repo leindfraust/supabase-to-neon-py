@@ -97,12 +97,6 @@ If backup or restore is interrupted, rerun the same script.
 
 `restore_neon.py` includes Neon compatibility filters for known Supabase-only objects (for example, Vault extension objects/tables) so restore can continue without failing on unsupported objects.
 
-## Security Notes
-
-- Never commit `.env`.
-- Keep backup artifacts secure; they contain full data.
-- Delete backup artifacts after migration if no longer needed.
-
 ## Troubleshooting
 
 ### Connection errors
